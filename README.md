@@ -4,7 +4,9 @@
 - :computer:  I have been working mostly with PHP and [Laravel](http://laravel.com) for the past years, you can find some of my works in my repositories.
 - 📫 You can reach me on mateusz.serwinowski@dmservce.pl
 
-## About me
+
+
+## About me - a brief overview
 
 ### Languages
 [![PHP](https://img.shields.io/badge/php-black?style=for-the-badge&logo=php)](https://github.com/serwin35)
