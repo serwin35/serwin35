@@ -22,7 +22,6 @@
 [![Vue.js](https://img.shields.io/badge/vue.js-black?style=for-the-badge&logo=vue.js)](https://github.com/serwin35)
 [![React](https://img.shields.io/badge/react-black?style=for-the-badge&logo=react)](https://github.com/serwin35)
 [![Docker](https://img.shields.io/badge/docker-black?style=for-the-badge&logo=docker)](https://hub.docker.com/u/serwin35)
-[![Lando](https://img.shields.io/badge/lando-black?style=for-the-badge&logo=lando)](https://hub.docker.com/u/serwin35)
 
 ### OS
 [![MacOS](https://img.shields.io/badge/macOS-black?style=for-the-badge&logo=macOS)](https://github.com/serwin35)
