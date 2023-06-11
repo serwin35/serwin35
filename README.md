@@ -24,9 +24,9 @@
 [![Docker](https://img.shields.io/badge/docker-black?style=for-the-badge&logo=docker)](https://hub.docker.com/u/serwin35)
 
 ### OS
- - [![MacOS](https://img.shields.io/badge/macOS-black?style=for-the-badge&logo=macOS)](https://github.com/serwin35)
- - [![Windows](https://img.shields.io/badge/Windows-black?style=for-the-badge&logo=Windows)](https://github.com/serwin35)
- - [![Linux](https://img.shields.io/badge/linux-black?style=for-the-badge&logo=Linux)](https://github.com/serwin35)
+ [![MacOS](https://img.shields.io/badge/macOS-black?style=for-the-badge&logo=macOS)](https://github.com/serwin35)
+ [![Windows](https://img.shields.io/badge/Windows-black?style=for-the-badge&logo=Windows)](https://github.com/serwin35)
+ [![Linux](https://img.shields.io/badge/linux-black?style=for-the-badge&logo=Linux)](https://github.com/serwin35)
     - [![Debian](https://img.shields.io/badge/debian-black?style=for-the-badge&logo=Debian)](https://github.com/serwin35)
     - [![Ubuntu](https://img.shields.io/badge/Ubuntu-black?style=for-the-badge&logo=Ubuntu)](https://github.com/serwin35)
 
