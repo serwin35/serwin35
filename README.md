@@ -17,10 +17,13 @@
 
 ### Technologies & Frameworks
 [![Laravel](https://img.shields.io/badge/laravel-black?style=for-the-badge&logo=laravel)](https://github.com/serwin35)
+[![Code Igniter](https://img.shields.io/badge/code_igniter-black?style=for-the-badge&logo=codeigniter)](https://github.com/serwin35)
 [![Tailwind CSS](https://img.shields.io/badge/tailwind_css-black?style=for-the-badge&logo=tailwindcss)](https://github.com/serwin35)
 [![Bootstrap](https://img.shields.io/badge/bootstrap-black?style=for-the-badge&logo=bootstrap)](https://github.com/serwin35)
 [![Vue.js](https://img.shields.io/badge/vue.js-black?style=for-the-badge&logo=vue.js)](https://github.com/serwin35)
 [![React](https://img.shields.io/badge/react-black?style=for-the-badge&logo=react)](https://github.com/serwin35)
+[![PrestaShop](https://img.shields.io/badge/prestashop-black?style=for-the-badge&logo=prestashop)](https://github.com/serwin35)
+[![WordPress](https://img.shields.io/badge/wordpress-black?style=for-the-badge&logo=wordpress)](https://github.com/serwin35)
 [![Docker](https://img.shields.io/badge/docker-black?style=for-the-badge&logo=docker)](https://hub.docker.com/u/serwin35)
 
 ### OS
