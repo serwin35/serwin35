@@ -17,7 +17,7 @@
 
 ### Technologies & Frameworks
 [![Laravel](https://img.shields.io/badge/laravel-black?style=for-the-badge&logo=laravel)](https://github.com/serwin35)
-[![Tailwind CSS](https://img.shields.io/badge/tailwind-css-black?style=for-the-badge&logo=tailwindcss)](https://github.com/serwin35)
+[![Tailwind CSS](https://img.shields.io/badge/tailwind_css-black?style=for-the-badge&logo=tailwindcss)](https://github.com/serwin35)
 [![Bootstrap](https://img.shields.io/badge/bootstrap-black?style=for-the-badge&logo=bootstrap)](https://github.com/serwin35)
 [![Vue.js](https://img.shields.io/badge/vue.js-black?style=for-the-badge&logo=vue.js)](https://github.com/serwin35)
 [![React](https://img.shields.io/badge/react-black?style=for-the-badge&logo=react)](https://github.com/serwin35)
