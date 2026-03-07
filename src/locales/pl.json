@@ -1,0 +1,126 @@
+{
+  "header": {
+    "title": "Mateusz Serwinowski",
+    "subtitle": "Full-Stack Developer & DevOps Engineer",
+    "cityAndCountry": "Łódź, Polska",
+    "firefighter": "Strażak-Ratownik · OSP Stara Łomnica",
+    "yearsExp": "lat doświadczenia",
+    "projects": "projektów",
+    "remote": "Praca zdalna",
+    "contact": "Napisz do mnie"
+  },
+  "nav": {
+    "home": "Strona główna",
+    "about": "O mnie",
+    "experience": "Doświadczenie",
+    "education": "Edukacja",
+    "skills": "Umiejętności",
+    "portfolio": "Portfolio",
+    "languages": "Języki",
+    "certifications": "Certyfikaty",
+    "interests": "Zainteresowania",
+    "contact": "Kontakt"
+  },
+
+  "About Me": "O mnie",
+  "Personal Information": "Dane osobowe",
+  "Phone": "Telefon",
+  "Age": "Wiek",
+
+  "about": {
+    "bio": "Full-Stack Developer i DevOps Engineer z ponad 17-letnim doświadczeniem w dostarczaniu produkcyjnych aplikacji webowych i skalowalnej infrastruktury chmurowej. Łączę głęboką wiedzę back-endową w Laravel i PHP z nowoczesnymi kompetencjami front-endowymi w Vue.js i React, tworząc rozwiązania end-to-end — od projektowania baz danych, przez pipeline'y CI/CD, po monitoring na AWS. W toku kariery dostarczyłem platformy CRM/ERP klasy enterprise, wysokoobciążeniowe sklepy e-commerce oraz skonteneryzowane mikroserwisy dla firm od startupów po uznane marki. Aktywnie kontrybuuję do open-source, utrzymując publiczne toolkity DevOps i środowiska Docker wykorzystywane przez społeczność deweloperów. Poza technologią pełnię służbę jako Strażak-Ratownik OSP, co ukształtowało we mnie dyscyplinę, umiejętność pracy zespołowej i zarządzania sytuacjami kryzysowymi.",
+    "statYears": "lat doświadczenia",
+    "statProjects": "projektów",
+    "statCompanies": "firm",
+    "yearsOld": "lat",
+    "ghRepos": "Repozytoria",
+    "ghCommits": "Commity",
+    "ghPRs": "Pull Requesty"
+  },
+
+  "Experience": "Doświadczenie",
+  "exp": {
+    "current": "Aktualnie",
+    "period1": "02.2025 — obecnie",
+    "period2": "10.2021 — obecnie",
+    "period3": "07.2023 — 02.2025",
+    "period4": "01.2023 — 06.2023",
+    "period5": "04.2022 — 01.2023",
+    "period6": "06.2011 — 12.2021",
+    "desc1": "Zaprojektowałem i utrzymuję zestaw aplikacji webowych obsługujących jedną z wiodących polskich marek cateringowych. Wdrożyłem wielousługową infrastrukturę na AWS (EC2, ECS, RDS, S3, CloudFront), zapewniając wysoką dostępność podczas kampanii o dużym ruchu. Zaprojektowałem pipeline'y CI/CD z Docker i GitHub Actions w modelu zero-downtime, znacząco skracając średni czas wdrożenia. Wprowadzałem aplikacje SPA oparte na Inertia.js z Vue.js i React, poprawiając wydajność ładowania stron i zaangażowanie użytkowników.",
+    "desc2": "Prowadzę rozwój dedykowanej platformy CRM/ERP zbudowanej w Laravel i Livewire, usprawniając procesy sprzedaży, magazynowania i obsługi klienta. Zmigrowałem starsze serwery on-premise do skonteneryzowanego środowiska Docker na AWS, poprawiając niezawodność wdrożeń i obniżając koszty infrastruktury. Zmodernizowałem wysokoobciążeniowy sklep PrestaShop — optymalizując zapytania bazodanowe, aktualizując moduły i wzmacniając bezpieczeństwo. Administruję produkcyjnymi serwerami Linux, zarządzając kopiami zapasowymi, monitoringiem i obsługą incydentów.",
+    "desc3": "Poprowadziłem rozwój nowych modułów CRM automatyzujących śledzenie leadów i komunikację z klientami, redukując ręczne wprowadzanie danych przez dział sprzedaży. Dostarczyłem funkcjonalności full-stack w bazach kodu Laravel, Vue.js, React i Livewire, konsekwentnie realizując zadania przed końcem sprintów. Zintegrowałem API zewnętrzne (bramki płatnicze, dostawcy kurierscy, analityka), rozszerzając możliwości platformy. Ściśle współpracowałem z product ownerami, przekładając wymagania biznesowe na specyfikacje techniczne i skalowalną architekturę.",
+    "desc4": "Kontrybuowałem do wielu projektów klienckich w dynamicznym środowisku agencyjnym, tworząc responsywne aplikacje webowe w Laravel, Vue.js, React i Inertia.js. Uczestniczyłem w code review i dyskusjach architektonicznych, pomagając zespołowi wdrażać najlepsze praktyki komponentowego front-endu. Dostarczyłem pixel-perfect implementacje UI z Bootstrap, zapewniając kompatybilność między przeglądarkami i zgodność z wytycznymi dostępności.",
+    "desc5": "Tworzyłem i utrzymywałem produkcyjne aplikacje webowe dla różnorodnych klientów, wykorzystując Laravel z Vue.js i Livewire. Wprowadzałem Tailwind CSS jako fundament systemu designu, przyspieszając cykle tworzenia UI i zapewniając spójny branding w projektach. Pisałem kompleksowe zestawy testów i kontrybuowałem do wewnętrznej dokumentacji standardów kodowania.",
+    "desc6": "Założyłem i prowadziłem Blue-NET — firmę web developmentową obsługującą lokalne i regionalne przedsiębiorstwa przez ponad dekadę. Dostarczyłem 50+ stron internetowych i sklepów e-commerce na PrestaShop, WordPress i Joomla, obsługując cały cykl — od odkrywania potrzeb klienta po wdrożenie i bieżące utrzymanie. Sukcesywnie wdrażałem nowoczesne frameworki — migrując projekty z CodeIgniter i Yii na Laravel — demonstrując ciągły rozwój i liderstwo technologiczne. Zarządzałem infrastrukturą hostingową, portfelami domen i relacjami z klientami end-to-end."
+  },
+
+  "Education": "Edukacja",
+  "edu": {
+    "period1": "2010 — 2014",
+    "period2": "2007 — 2010",
+    "title1": "Inżynier Informatyk",
+    "title2": "Liceum Profilowane",
+    "institution1": "Wrocławska Wyższa Szkoła Informatyki Stosowanej",
+    "institution2": "Zespół Szkół Ponadgimnazjalnych w Bystrzycy Kłodzkiej",
+    "desc1": "Studia inżynierskie na kierunku Administracja Sieci Komputerowych. Program obejmował systemy operacyjne, protokoły sieciowe, bezpieczeństwo i zarządzanie bazami danych. Praca dyplomowa poświęcona praktycznemu projektowaniu infrastruktury serwerowej.",
+    "desc2": "Profil zarządzanie informacją z solidnymi podstawami IT, programowania i sprzętu komputerowego. Wczesny kontakt z technologiami webowymi, który zapoczątkował długoletnią karierę w tworzeniu oprogramowania."
+  },
+
+  "Skills": "Umiejętności",
+  "Programming languages": "Języki programowania",
+  "Framework PHP": "Frameworki PHP",
+  "Framework JavaScript": "Frameworki JavaScript",
+  "Framework CSS": "Frameworki CSS",
+  "Databases": "Bazy danych",
+  "DevOps and Systems": "DevOps i Systemy",
+  "Cloud AWS": "Chmura AWS",
+  "Tools and others": "Narzędzia i inne",
+  "Graphic and video": "Grafika i wideo",
+  "Additional": "Dodatkowe",
+
+  "Portfolio": "Portfolio",
+  "View project": "Zobacz projekt",
+  "portfolio": {
+    "desc1": "Rozbudowana platforma e-commerce obsługująca społeczność strażacką. Zbudowana na PrestaShop z w pełni autorskim motywem, konfiguratorami produktów oraz integracjami z dostawcami płatności i przesyłek — generująca stabilny wzrost przychodów od momentu uruchomienia.",
+    "desc2": "System CRM/ERP klasy enterprise do kompleksowego zarządzania sprzedażą, obejmujący śledzenie pipeline'u, fakturowanie i kontrolę stanów magazynowych. Zbudowany w Laravel, Livewire i Flux UI; bezproblemowo integruje się ze sklepem internetowym i zewnętrznym oprogramowaniem handlowym.",
+    "desc3": "Przedsięwzięcie biznesowe oferujące kompleksowe usługi web development, hosting zarządzany i administrację serwerami Linux dla małych i średnich firm przez 10 lat.",
+    "desc4": "Baza wiedzy DevOps open-source zawierająca sprawdzone w boju wzorce, skrypty automatyzacji i konfiguracje pipeline'ów CI/CD. Zaprojektowana, aby pomóc zespołom szybko wdrażać najlepsze praktyki infrastructure-as-code.",
+    "desc5": "Gotowe do produkcji środowisko Docker dla projektów Laravel, wstępnie skonfigurowane z Nginx, PHP-FPM i MySQL. Pozwala deweloperom uruchomić spójne środowiska lokalne i stagingowe w kilka minut.",
+    "desc6": "Lekka aplikacja do zarządzania kartami czasu pracy i urlopami, dostosowana do potrzeb małych firm. Upraszcza rejestrowanie godzin, wnioski urlopowe i śledzenie dostępności zespołu dzięki intuicyjnemu, mobilnemu interfejsowi.",
+    "status": {
+      "live": "Live",
+      "private": "Prywatny",
+      "wip": "W toku"
+    }
+  },
+
+  "Languages": "Języki",
+  "English": "Angielski",
+  "Polish": "Polski",
+  "Level": "Poziom",
+  "Native": "Ojczysty",
+
+  "Certifications": "Certyfikaty",
+  "certifications": {
+    "title1": "AWS Certified Cloud Practitioner",
+    "issuer1": "Amazon Web Services",
+    "date1": "Planowany",
+    "title2": "Laravel Certified Developer",
+    "issuer2": "Laravel",
+    "date2": "Planowany",
+    "title3": "Docker Certified Associate",
+    "issuer3": "Docker, Inc.",
+    "date3": "Planowany",
+    "placeholder": "Certyfikaty w trakcie realizacji — szczegóły wkrótce."
+  },
+
+  "Interests": "Zainteresowania",
+  "interests": {
+    "item1": "Straż pożarna i ratownictwo",
+    "item2": "Open-source i automatyzacja DevOps",
+    "item3": "Architektura chmurowa i Infrastructure as Code",
+    "item4": "Aktywność na świeżym powietrzu i turystyka górska",
+    "item5": "Ciągły rozwój i zaangażowanie w społeczność technologiczną"
+  }
+}

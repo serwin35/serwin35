@@ -1,0 +1,126 @@
+{
+  "header": {
+    "title": "Mateusz Serwinowski",
+    "subtitle": "Full-Stack Developer & DevOps Engineer",
+    "cityAndCountry": "Lodz, Poland",
+    "firefighter": "Volunteer Firefighter · OSP Stara Lomnica",
+    "yearsExp": "years of experience",
+    "projects": "projects",
+    "remote": "Remote",
+    "contact": "Contact me"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "portfolio": "Portfolio",
+    "languages": "Languages",
+    "certifications": "Certifications",
+    "interests": "Interests",
+    "contact": "Contact"
+  },
+
+  "About Me": "About Me",
+  "Personal Information": "Personal Information",
+  "Phone": "Phone",
+  "Age": "Age",
+
+  "about": {
+    "bio": "Full-Stack Developer and DevOps Engineer with 17+ years of hands-on experience delivering production-grade web applications and scalable cloud infrastructure. I combine deep back-end expertise in Laravel and PHP with modern front-end skills in Vue.js and React to build end-to-end solutions — from database design through CI/CD pipelines to live monitoring on AWS. Over the course of my career I have shipped enterprise CRM/ERP platforms, high-traffic e-commerce stores and containerized microservices for companies ranging from startups to established brands. I am an active open-source contributor, maintaining public DevOps toolkits and reusable Docker environments used by the developer community. Outside of tech, I serve as a Volunteer Firefighter, which has instilled a strong sense of discipline, teamwork and crisis management.",
+    "statYears": "years of experience",
+    "statProjects": "projects delivered",
+    "statCompanies": "companies",
+    "yearsOld": "years old",
+    "ghRepos": "Repositories",
+    "ghCommits": "Commits",
+    "ghPRs": "Pull Requests"
+  },
+
+  "Experience": "Experience",
+  "exp": {
+    "current": "Current",
+    "period1": "02.2025 — present",
+    "period2": "10.2021 — present",
+    "period3": "07.2023 — 02.2025",
+    "period4": "01.2023 — 06.2023",
+    "period5": "04.2022 — 01.2023",
+    "period6": "06.2011 — 12.2021",
+    "desc1": "Architected and maintain a suite of customer-facing web applications powering one of Poland's leading meal-kit brands. Engineered multi-service infrastructure on AWS (EC2, ECS, RDS, S3, CloudFront) to ensure high availability during peak-traffic campaigns. Designed zero-downtime CI/CD pipelines with Docker and GitHub Actions, cutting average deployment time significantly. Introduced Inertia.js-driven SPAs with Vue.js and React, improving page-load performance and user engagement across the platform.",
+    "desc2": "Lead the ongoing development of a bespoke CRM/ERP platform built with Laravel and Livewire, streamlining sales, inventory and customer workflows for the organization. Migrated legacy on-premise servers to a containerized Docker environment on AWS, improving deployment reliability and reducing infrastructure costs. Modernized a high-traffic PrestaShop storefront — optimizing database queries, upgrading modules and hardening security. Administer Linux-based production servers, managing backups, monitoring and incident response.",
+    "desc3": "Spearheaded the development of new CRM modules that automated lead tracking and client communication, reducing manual data-entry overhead for the sales team. Delivered full-stack features across Laravel, Vue.js, React and Livewire codebases, consistently shipping ahead of sprint deadlines. Integrated third-party APIs (payment gateways, shipping providers, analytics) to extend platform capabilities. Collaborated closely with product owners to translate business requirements into technical specifications and scalable architecture.",
+    "desc4": "Contributed to multiple client-facing projects within a fast-paced agency environment, building responsive web applications using Laravel, Vue.js, React and Inertia.js. Participated in code reviews and architectural discussions, helping the team adopt best practices for component-driven front-end development. Delivered pixel-perfect UI implementations with Bootstrap, ensuring cross-browser compatibility and accessibility compliance.",
+    "desc5": "Developed and maintained production web applications for diverse clients, leveraging Laravel with Vue.js and Livewire. Introduced Tailwind CSS as the design-system foundation, accelerating UI development cycles and ensuring consistent branding across projects. Wrote comprehensive test suites and contributed to internal coding standards documentation.",
+    "desc6": "Founded and operated Blue-NET, a web development practice serving local and regional businesses for over a decade. Delivered 50+ websites and e-commerce stores on PrestaShop, WordPress and Joomla, handling everything from client discovery to deployment and ongoing maintenance. Progressively adopted modern frameworks — migrating projects from CodeIgniter and Yii to Laravel — demonstrating continuous learning and technology leadership. Managed hosting infrastructure, domain portfolios and client relationships end-to-end."
+  },
+
+  "Education": "Education",
+  "edu": {
+    "period1": "2010 — 2014",
+    "period2": "2007 — 2010",
+    "title1": "Computer Science Engineer",
+    "title2": "Technical High School",
+    "institution1": "Wroclaw University of Applied Informatics",
+    "institution2": "Secondary School Complex in Bystrzyca Klodzka",
+    "desc1": "Engineering degree in Computer Network Administration. Coursework in operating systems, network protocols, security and database management. Completed a thesis project focused on practical server infrastructure design.",
+    "desc2": "Information management profile with a strong foundation in IT fundamentals, programming basics and computer hardware. Early exposure to web technologies that sparked a lasting career in software development."
+  },
+
+  "Skills": "Skills",
+  "Programming languages": "Programming languages",
+  "Framework PHP": "PHP Frameworks",
+  "Framework JavaScript": "JavaScript Frameworks",
+  "Framework CSS": "CSS Frameworks",
+  "Databases": "Databases",
+  "DevOps and Systems": "DevOps & Systems",
+  "Cloud AWS": "Cloud AWS",
+  "Tools and others": "Tools & Others",
+  "Graphic and video": "Graphic & Video",
+  "Additional": "Additional",
+
+  "Portfolio": "Portfolio",
+  "View project": "View project",
+  "portfolio": {
+    "desc1": "Feature-rich e-commerce platform serving the firefighting community. Built on PrestaShop with a fully custom theme, tailored product configurators, and integrations with payment and shipping providers — driving steady revenue growth since launch.",
+    "desc2": "Enterprise-grade CRM/ERP system for end-to-end sales management, including pipeline tracking, invoicing and inventory control. Built with Laravel, Livewire and Flux UI; integrates seamlessly with an online storefront and third-party trade software.",
+    "desc3": "Entrepreneurial venture providing full-service web development, managed hosting and Linux server administration to small and medium businesses over a 10-year span.",
+    "desc4": "Open-source DevOps knowledge base featuring battle-tested patterns, automation scripts and CI/CD pipeline configurations. Designed to help teams adopt infrastructure-as-code best practices quickly.",
+    "desc5": "Production-ready Docker environment for Laravel projects, pre-configured with Nginx, PHP-FPM and MySQL. Enables developers to spin up consistent local and staging environments in minutes.",
+    "desc6": "Lightweight timesheet and vacation management application tailored for small businesses. Simplifies hour logging, leave requests and team availability tracking with an intuitive, mobile-friendly interface.",
+    "status": {
+      "live": "Live",
+      "private": "Private",
+      "wip": "In Progress"
+    }
+  },
+
+  "Languages": "Languages",
+  "English": "English",
+  "Polish": "Polish",
+  "Level": "Level",
+  "Native": "Native",
+
+  "Certifications": "Certifications",
+  "certifications": {
+    "title1": "AWS Certified Cloud Practitioner",
+    "issuer1": "Amazon Web Services",
+    "date1": "Planned",
+    "title2": "Laravel Certified Developer",
+    "issuer2": "Laravel",
+    "date2": "Planned",
+    "title3": "Docker Certified Associate",
+    "issuer3": "Docker, Inc.",
+    "date3": "Planned",
+    "placeholder": "Certifications in progress — details coming soon."
+  },
+
+  "Interests": "Interests",
+  "interests": {
+    "item1": "Volunteer Firefighting & Emergency Response",
+    "item2": "Open-Source Development & DevOps Automation",
+    "item3": "Cloud Architecture & Infrastructure as Code",
+    "item4": "Outdoor Activities & Hiking",
+    "item5": "Continuous Learning & Tech Community Engagement"
+  }
+}
