@@ -74,14 +74,14 @@ class MateuszSerwinowski
 ### 🔥 Quick Facts
 
 - 👨‍🚒 **Volunteer Firefighter** at OSP Stara Lomnica
-- 🐘 PHP & **Laravel** veteran — 17+ years in the game
+- 🐘 **PHP** veteran — 17+ years (CodeIgniter → **Laravel**)
 - ⚡ **Vue.js** & **React** for modern front-ends
 - ☁️ **AWS** infrastructure (EC2, ECS, S3, RDS, CloudFront)
 - 🐳 **Docker** & CI/CD automation enthusiast
 - 🤖 Workflow automation with **n8n** & **Node-RED**
 - 🔧 **Terraform** & **Ansible** for IaC
 - 🏢 Currently at **DMservice**
-- 🧯 Motto: *"If it's not on fire — automate it!"*
+- 🧯 Motto: _"If it's not on fire — automate it!"_
 
 </td>
 </tr>
@@ -94,6 +94,7 @@ class MateuszSerwinowski
 <div align="center">
 
 ### 🔧 Languages
+
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
@@ -103,6 +104,7 @@ class MateuszSerwinowski
 ![Shell](https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
 ### ⚙️ Frameworks & Libraries
+
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![Livewire](https://img.shields.io/badge/Livewire-FB70A9?style=for-the-badge&logo=livewire&logoColor=white)
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
@@ -114,6 +116,7 @@ class MateuszSerwinowski
 ![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EF4223?style=for-the-badge&logo=codeigniter&logoColor=white)
 
 ### 🛠️ DevOps & Infrastructure
+
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
@@ -125,10 +128,12 @@ class MateuszSerwinowski
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ### 🤖 Automation
+
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 ![Node-RED](https://img.shields.io/badge/Node--RED-8F0000?style=for-the-badge&logo=nodered&logoColor=white)
 
 ### 🗄️ Databases & CMS
+
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
@@ -145,12 +150,12 @@ class MateuszSerwinowski
 
 <div align="center">
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [**SklepStrazacki.pl**](https://sklepstrazacki.pl) | E-commerce platform for the firefighting community | PrestaShop, PHP, CSS |
-| **WF-Chart CRM/ERP** | Enterprise sales management system | Laravel, Livewire, Flux UI |
-| [**Docker Laravel**](https://github.com/serwin35/docker-laravel) | Production-ready Docker env for Laravel | Docker, Nginx, PHP-FPM |
-| [**DevOps Handbook**](https://github.com/serwin35/devops-handbook) | Public DevOps patterns & CI/CD configs | TypeScript, Docker, CI/CD |
+| Project                                                            | Description                                        | Stack                      |
+| ------------------------------------------------------------------ | -------------------------------------------------- | -------------------------- |
+| [**SklepStrazacki.pl**](https://sklepstrazacki.pl)                 | E-commerce platform for the firefighting community | PrestaShop, PHP, CSS       |
+| **WF-Chart CRM/ERP**                                               | Enterprise sales management system                 | Laravel, Livewire, Flux UI |
+| [**Docker Laravel**](https://github.com/serwin35/docker-laravel)   | Production-ready Docker env for Laravel            | Docker, Nginx, PHP-FPM     |
+| [**DevOps Handbook**](https://github.com/serwin35/devops-handbook) | Public DevOps patterns & CI/CD configs             | TypeScript, Docker, CI/CD  |
 
 </div>
 
@@ -203,7 +208,8 @@ class MateuszSerwinowski
 <div align="center">
   <br/>
 
-  ![Built with Fire](https://img.shields.io/badge/Built%20with-🔥-red?style=for-the-badge)
+![Built with Fire](https://img.shields.io/badge/Built%20with-🔥-red?style=for-the-badge)
 
-  <i>⭐ Thanks for visiting! Stay safe and keep coding! ⭐</i>
+<i>⭐ Thanks for visiting! Stay safe and keep coding! ⭐</i>
+
 </div>
