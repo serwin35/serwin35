@@ -80,7 +80,7 @@ class MateuszSerwinowski
 - 🐳 **Docker** & CI/CD automation enthusiast
 - 🤖 Workflow automation with **n8n** & **Node-RED**
 - 🔧 **Terraform** & **Ansible** for IaC
-- 🏢 Currently at **Kuchnia Vikinga** & **DMservice**
+- 🏢 Currently at **DMservice**
 - 🧯 Motto: *"If it's not on fire — automate it!"*
 
 </td>
