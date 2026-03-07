@@ -194,7 +194,7 @@ export default function Skills() {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ delay: 0.6 }}
-        className="mt-6 flex items-center gap-6 text-xs"
+        className="mt-6 flex flex-wrap items-center gap-3 sm:gap-6 text-xs"
         style={{ color: 'var(--color-text-muted)' }}
       >
         <span className="flex items-center gap-2">

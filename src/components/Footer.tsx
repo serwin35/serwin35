@@ -60,7 +60,7 @@ export default function Footer() {
           className="text-center mb-14"
         >
           <h2
-            className="text-3xl md:text-4xl font-black mb-4"
+            className="text-2xl sm:text-3xl md:text-4xl font-black mb-4"
             style={{ color: 'var(--color-text-primary)' }}
           >
             Let&apos;s <span className="gradient-text">work together</span>
@@ -74,7 +74,7 @@ export default function Footer() {
           </p>
           <a
             href="mailto:mateusz.serwinowski@gmail.com"
-            className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl font-semibold text-base text-white transition-all duration-200 hover:scale-105 hover-glow"
+            className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-3.5 rounded-xl font-semibold text-sm sm:text-base text-white transition-all duration-200 hover:scale-105 hover-glow"
             style={{
               background: 'linear-gradient(135deg, #3b82f6, #6d28d9)',
               boxShadow: '0 4px 24px rgba(59,130,246,0.3)',

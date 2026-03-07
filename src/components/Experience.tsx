@@ -95,11 +95,11 @@ export default function Experience() {
         {t('Experience')} <span>.</span>
       </h2>
 
-      <div className="relative" style={{ paddingLeft: '40px' }}>
-        {/* Animated timeline line — at 15px from left */}
+      <div className="relative pl-7 sm:pl-10">
+        {/* Animated timeline line — at 10px from left */}
         <div
           className="absolute top-2 bottom-2 timeline-line-animated"
-          style={{ left: '14px' }}
+          style={{ left: '10px' }}
         />
 
         {experiences.map((exp, index) => (
@@ -109,13 +109,13 @@ export default function Experience() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: '-60px' }}
             transition={{ delay: index * 0.1, duration: 0.5 }}
-            className="relative mb-6 last:mb-0"
+            className="relative mb-4 sm:mb-6 last:mb-0"
           >
             {/* Timeline dot — centered on the line */}
             <div
               className="absolute w-3 h-3 rounded-full border-2 z-10"
               style={{
-                left: '-31px',
+                left: '-21px',
                 top: '20px',
                 background: exp.accent ?? '#3b82f6',
                 boxShadow: `0 0 12px ${exp.accent ?? '#3b82f6'}60`,
@@ -125,31 +125,31 @@ export default function Experience() {
 
             {/* Card */}
             <div
-              className="group glass-card p-5 cursor-default"
+              className="group glass-card p-4 sm:p-5 cursor-default"
               style={{
                 borderLeft: `2px solid ${exp.accent ?? '#3b82f6'}40`,
               }}
             >
               {/* Top row */}
               <div className="flex flex-wrap items-start justify-between gap-2 mb-2">
-                <div>
+                <div className="min-w-0 flex-1">
                   <h3
-                    className="text-base font-semibold"
+                    className="text-sm sm:text-base font-semibold"
                     style={{ color: 'var(--color-text-primary)' }}
                   >
                     {exp.title}
                   </h3>
                   <p
-                    className="text-sm font-medium mt-0.5"
+                    className="text-xs sm:text-sm font-medium mt-0.5"
                     style={{ color: exp.accent ?? 'var(--color-accent)' }}
                   >
                     {exp.company}
                   </p>
                 </div>
-                <div className="flex items-center gap-2 shrink-0 flex-wrap justify-end">
+                <div className="flex items-center gap-1.5 sm:gap-2 shrink-0 flex-wrap justify-end">
                   {exp.current && (
                     <span
-                      className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold"
+                      className="inline-flex items-center gap-1.5 px-2 sm:px-2.5 py-1 rounded-full text-xs font-semibold"
                       style={{
                         background: 'rgba(16,185,129,0.1)',
                         border: '1px solid rgba(16,185,129,0.25)',
@@ -164,7 +164,7 @@ export default function Experience() {
                     </span>
                   )}
                   <span
-                    className="text-xs font-mono px-2.5 py-1 rounded-lg"
+                    className="text-xs font-mono px-2 sm:px-2.5 py-1 rounded-lg"
                     style={{
                       color: 'var(--color-text-muted)',
                       background: 'rgba(255,255,255,0.04)',

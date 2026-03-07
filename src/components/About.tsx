@@ -213,7 +213,7 @@ export default function About() {
             </a>
           </div>
 
-          <div className="grid grid-cols-3 gap-3 mb-5">
+          <div className="grid grid-cols-3 gap-2 sm:gap-3 mb-5">
             {ghStats.map((item, i) => (
               <div
                 key={i}
@@ -286,7 +286,7 @@ export default function About() {
                 </p>
                 <a
                   href={item.href}
-                  className="text-sm font-medium transition-colors hover:text-[var(--color-accent)]"
+                  className="text-sm font-medium transition-colors hover:text-[var(--color-accent)] break-all"
                   style={{ color: 'var(--color-text-secondary)' }}
                 >
                   {item.value}

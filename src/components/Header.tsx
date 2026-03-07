@@ -63,7 +63,7 @@ export default function Header({ onNavigate }: HeaderProps) {
 
   return (
     <div
-      className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden px-6 md:px-12"
+      className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden px-4 sm:px-6 md:px-12"
       style={{
         background:
           'radial-gradient(ellipse 80% 60% at 50% -10%, rgba(59,130,246,0.08) 0%, transparent 60%), radial-gradient(ellipse 60% 50% at 80% 100%, rgba(139,92,246,0.06) 0%, transparent 60%)',
@@ -128,7 +128,7 @@ export default function Header({ onNavigate }: HeaderProps) {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 0.6 }}
-          className="text-5xl md:text-7xl font-black tracking-tight mb-4"
+          className="text-4xl sm:text-5xl md:text-7xl font-black tracking-tight mb-4"
           key={i18n.language}
         >
           <span className="gradient-text">{t('header.title')}</span>
@@ -139,7 +139,7 @@ export default function Header({ onNavigate }: HeaderProps) {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 0.5 }}
-          className="flex items-center justify-center gap-2 mb-6 h-10"
+          className="flex flex-wrap items-center justify-center gap-1 sm:gap-2 mb-6 min-h-10"
         >
           <span
             className="text-xl md:text-2xl font-semibold"
@@ -164,7 +164,7 @@ export default function Header({ onNavigate }: HeaderProps) {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.65 }}
-          className="flex flex-wrap items-center justify-center gap-4 text-sm mb-10"
+          className="flex flex-wrap items-center justify-center gap-3 text-sm mb-8 md:mb-10"
           style={{ color: 'var(--color-text-muted)' }}
         >
           <span className="flex items-center gap-1.5">
@@ -207,7 +207,7 @@ export default function Header({ onNavigate }: HeaderProps) {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.75 }}
-          className="flex flex-wrap items-center justify-center gap-3 mb-10"
+          className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-8 md:mb-10"
           key={`stats-${i18n.language}`}
         >
           {stats.map((stat, i) => (
@@ -216,7 +216,7 @@ export default function Header({ onNavigate }: HeaderProps) {
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.8 + i * 0.08 }}
-              className="flex flex-col items-center px-5 py-3 rounded-2xl"
+              className="flex flex-col items-center px-3 sm:px-5 py-2.5 sm:py-3 rounded-2xl"
               style={{
                 background: 'rgba(255,255,255,0.03)',
                 border: '1px solid rgba(255,255,255,0.07)',
@@ -244,11 +244,11 @@ export default function Header({ onNavigate }: HeaderProps) {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.0 }}
-          className="flex flex-wrap items-center justify-center gap-3 mb-16"
+          className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-12 md:mb-16"
         >
           <a
             href="mailto:mateusz.serwinowski@gmail.com"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm text-white transition-all duration-200 hover:scale-105 hover-glow"
+            className="inline-flex items-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 rounded-xl font-semibold text-sm text-white transition-all duration-200 hover:scale-105 hover-glow"
             style={{
               background: 'linear-gradient(135deg, #3b82f6, #6d28d9)',
               boxShadow: '0 4px 20px rgba(59,130,246,0.3)',
@@ -273,7 +273,7 @@ export default function Header({ onNavigate }: HeaderProps) {
             href="https://github.com/serwin35"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm transition-all duration-200 hover:scale-105"
+            className="inline-flex items-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 rounded-xl font-semibold text-sm transition-all duration-200 hover:scale-105"
             style={{
               background: 'rgba(255,255,255,0.04)',
               border: '1px solid rgba(255,255,255,0.1)',
@@ -289,7 +289,7 @@ export default function Header({ onNavigate }: HeaderProps) {
             href="https://www.linkedin.com/in/mateusz-serwin-serwinowski/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm transition-all duration-200 hover:scale-105"
+            className="inline-flex items-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 rounded-xl font-semibold text-sm transition-all duration-200 hover:scale-105"
             style={{
               background: 'rgba(255,255,255,0.04)',
               border: '1px solid rgba(255,255,255,0.1)',

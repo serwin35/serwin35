@@ -79,19 +79,19 @@ function App() {
           <Sidebar activeSection={activeSection} onNavigate={scrollToSection} />
 
           {/* Language switcher — fixed top right */}
-          <div className="fixed top-5 right-6 z-30">
+          <div className="fixed top-4 right-4 md:top-5 md:right-6 z-30">
             <LanguageSwitcher />
           </div>
 
           {/* Main scrollable content */}
-          <main className="relative z-10 pl-16 md:pl-20">
+          <main className="relative z-10 md:pl-20 pb-16 md:pb-0">
             {/* Hero */}
             <section id="hero">
               <Header onNavigate={scrollToSection} />
             </section>
 
             {/* Content sections */}
-            <div className="max-w-5xl mx-auto px-6 md:px-10">
+            <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-10">
               <section id="about" className="section-wrapper">
                 <About />
               </section>

@@ -80,10 +80,10 @@ export default function Education() {
         {t('Education')} <span>.</span>
       </h2>
 
-      <div className="relative" style={{ paddingLeft: '40px' }}>
+      <div className="relative pl-7 sm:pl-10">
         <div
           className="absolute top-2 bottom-2 timeline-line-animated"
-          style={{ left: '14px' }}
+          style={{ left: '10px' }}
         />
 
         {educations.map((edu, index) => (
@@ -93,13 +93,13 @@ export default function Education() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: '-40px' }}
             transition={{ delay: index * 0.15, duration: 0.5 }}
-            className="relative mb-6 last:mb-0"
+            className="relative mb-4 sm:mb-6 last:mb-0"
           >
             {/* Timeline dot — centered on the line */}
             <div
               className="absolute w-3 h-3 rounded-full border-2 z-10"
               style={{
-                left: '-31px',
+                left: '-21px',
                 top: '20px',
                 background: edu.accent,
                 boxShadow: `0 0 12px ${edu.accent}60`,
@@ -108,13 +108,13 @@ export default function Education() {
             />
 
             <div
-              className="glass-card p-5"
+              className="glass-card p-4 sm:p-5"
               style={{ borderLeft: `2px solid ${edu.accent}40` }}
             >
-              <div className="flex items-start gap-4">
+              <div className="flex items-start gap-3 sm:gap-4">
                 {/* Icon badge */}
                 <div
-                  className="mt-0.5 w-10 h-10 rounded-xl flex items-center justify-center shrink-0"
+                  className="mt-0.5 w-9 h-9 sm:w-10 sm:h-10 rounded-xl flex items-center justify-center shrink-0"
                   style={{
                     background: `${edu.accent}15`,
                     border: `1px solid ${edu.accent}30`,
@@ -131,13 +131,13 @@ export default function Education() {
                 <div className="flex-1 min-w-0">
                   <div className="flex flex-wrap items-start justify-between gap-1 mb-1">
                     <h3
-                      className="text-base font-semibold"
+                      className="text-sm sm:text-base font-semibold"
                       style={{ color: 'var(--color-text-primary)' }}
                     >
                       {t(edu.titleKey)}
                     </h3>
                     <span
-                      className="text-xs font-mono px-2.5 py-1 rounded-lg shrink-0"
+                      className="text-xs font-mono px-2 sm:px-2.5 py-1 rounded-lg shrink-0"
                       style={{
                         color: 'var(--color-text-muted)',
                         background: 'rgba(255,255,255,0.04)',
