@@ -80,10 +80,10 @@ export default function Education() {
         {t('Education')} <span>.</span>
       </h2>
 
-      <div className="relative pl-7 sm:pl-10">
+      <div className="relative pl-8">
         <div
           className="absolute top-2 bottom-2 timeline-line-animated"
-          style={{ left: '10px' }}
+          style={{ left: '12px' }}
         />
 
         {educations.map((edu, index) => (
@@ -99,7 +99,7 @@ export default function Education() {
             <div
               className="absolute w-3 h-3 rounded-full border-2 z-10"
               style={{
-                left: '-21px',
+                left: '-26px',
                 top: '20px',
                 background: edu.accent,
                 boxShadow: `0 0 12px ${edu.accent}60`,

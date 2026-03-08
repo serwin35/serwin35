@@ -234,6 +234,8 @@ body {
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: 16px;
+  max-width: 100%;
+  overflow: hidden;
   transition:
     border-color 0.3s ease,
     transform 0.3s ease,
@@ -476,15 +478,23 @@ body {
 
 .bento-cell-wide {
   grid-column: span 6;
+  min-width: 0;
+  overflow: hidden;
 }
 .bento-cell-narrow {
   grid-column: span 3;
+  min-width: 0;
+  overflow: hidden;
 }
 .bento-cell-full {
   grid-column: span 6;
+  min-width: 0;
+  overflow: hidden;
 }
 .bento-cell-half {
   grid-column: span 6;
+  min-width: 0;
+  overflow: hidden;
 }
 
 @media (min-width: 640px) {

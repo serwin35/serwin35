@@ -95,11 +95,11 @@ export default function Experience() {
         {t('Experience')} <span>.</span>
       </h2>
 
-      <div className="relative pl-7 sm:pl-10">
-        {/* Animated timeline line — at 10px from left */}
+      <div className="relative pl-8">
+        {/* Animated timeline line */}
         <div
           className="absolute top-2 bottom-2 timeline-line-animated"
-          style={{ left: '10px' }}
+          style={{ left: '12px' }}
         />
 
         {experiences.map((exp, index) => (
@@ -115,7 +115,7 @@ export default function Experience() {
             <div
               className="absolute w-3 h-3 rounded-full border-2 z-10"
               style={{
-                left: '-21px',
+                left: '-26px',
                 top: '20px',
                 background: exp.accent ?? '#3b82f6',
                 boxShadow: `0 0 12px ${exp.accent ?? '#3b82f6'}60`,
