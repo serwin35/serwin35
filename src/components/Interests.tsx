@@ -11,8 +11,9 @@ const interests: InterestItem[] = [
   { key: 'interests.item1', icon: '🚒', accentColor: '#ef4444' },
   { key: 'interests.item2', icon: '🔧', accentColor: '#3b82f6' },
   { key: 'interests.item3', icon: '☁️', accentColor: '#8b5cf6' },
-  { key: 'interests.item4', icon: '🏔️', accentColor: '#10b981' },
-  { key: 'interests.item5', icon: '📚', accentColor: '#f59e0b' },
+  { key: 'interests.item4', icon: '🧵', accentColor: '#ec4899' },
+  { key: 'interests.item5', icon: '🏔️', accentColor: '#10b981' },
+  { key: 'interests.item6', icon: '📚', accentColor: '#f59e0b' },
 ];
 
 export default function Interests() {
