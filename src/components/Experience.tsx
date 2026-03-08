@@ -23,6 +23,7 @@ const experiences: ExperienceItem[] = [
       'React',
       'Livewire',
       'Docker',
+      'Proxmox',
       'AWS',
       'CI/CD',
       'Tailwind CSS',
