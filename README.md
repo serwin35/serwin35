@@ -63,7 +63,7 @@ class MateuszSerwinowski
 
     public function getStack(): array
     {
-        return ['Laravel', 'Vue.js', 'React', 'Docker', 'AWS'];
+        return ['Laravel', 'Vue.js', 'React', 'Docker', 'Proxmox', 'AWS'];
     }
 }
 ```
@@ -77,7 +77,7 @@ class MateuszSerwinowski
 - 🐘 **PHP** veteran — 17+ years (CodeIgniter → **Laravel**)
 - ⚡ **Vue.js** & **React** for modern front-ends
 - ☁️ **AWS** infrastructure (EC2, ECS, S3, RDS, CloudFront)
-- 🐳 **Docker** & CI/CD automation enthusiast
+- 🐳 **Docker**, **Proxmox VE** & CI/CD automation enthusiast
 - 🤖 Workflow automation with **n8n** & **Node-RED**
 - 🔧 **Terraform** & **Ansible** for IaC
 - 🏢 Currently at **DMservice**
@@ -121,6 +121,7 @@ class MateuszSerwinowski
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
+![Proxmox](https://img.shields.io/badge/Proxmox_VE-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)

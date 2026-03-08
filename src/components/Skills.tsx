@@ -71,6 +71,7 @@ const skillCategories: SkillCategory[] = [
     accentColor: '#ec4899',
     skills: [
       { name: 'Docker', weight: 'primary' },
+      { name: 'Proxmox VE', weight: 'secondary' },
       { name: 'Linux', weight: 'primary' },
       { name: 'Nginx', weight: 'secondary' },
       { name: 'Git', weight: 'primary' },
