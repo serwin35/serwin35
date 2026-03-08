@@ -13,6 +13,7 @@
 
 | ID    | Time     | T   | Title                                                             | Read |
 | ----- | -------- | --- | ----------------------------------------------------------------- | ---- |
+| #7403 | 10:27 AM | 🔴  | Fixed decorative blobs causing horizontal overflow on mobile      | ~315 |
 | #7400 | 10:07 AM | 🔄  | Simplified Education timeline padding to fixed value              | ~282 |
 | #7399 | "        | ✅  | Standardized Experience timeline spacing across all breakpoints   | ~285 |
 | #7396 | 10:06 AM | 🔴  | Adjusted Education timeline dot alignment                         | ~233 |

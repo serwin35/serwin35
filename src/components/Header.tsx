@@ -69,9 +69,9 @@ export default function Header({ onNavigate }: HeaderProps) {
           'radial-gradient(ellipse 80% 60% at 50% -10%, rgba(59,130,246,0.08) 0%, transparent 60%), radial-gradient(ellipse 60% 50% at 80% 100%, rgba(139,92,246,0.06) 0%, transparent 60%)',
       }}
     >
-      {/* Decorative blobs */}
+      {/* Decorative blobs — clamped to prevent overflow on mobile */}
       <div
-        className="absolute top-1/4 left-1/4 w-64 h-64 rounded-full pointer-events-none"
+        className="absolute top-1/4 left-0 w-48 sm:w-64 h-48 sm:h-64 rounded-full pointer-events-none"
         style={{
           background:
             'radial-gradient(circle, rgba(59,130,246,0.06) 0%, transparent 70%)',
@@ -79,7 +79,7 @@ export default function Header({ onNavigate }: HeaderProps) {
         }}
       />
       <div
-        className="absolute bottom-1/4 right-1/4 w-80 h-80 rounded-full pointer-events-none"
+        className="absolute bottom-1/4 right-0 w-48 sm:w-80 h-48 sm:h-80 rounded-full pointer-events-none"
         style={{
           background:
             'radial-gradient(circle, rgba(139,92,246,0.05) 0%, transparent 70%)',

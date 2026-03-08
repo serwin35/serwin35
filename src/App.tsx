@@ -71,7 +71,7 @@ function App() {
       <AnimatePresence>{isLoading && <LoadingScreen />}</AnimatePresence>
 
       {!isLoading && (
-        <div className="relative min-h-screen">
+        <div className="relative min-h-screen overflow-x-hidden max-w-full">
           <NeuralBackground />
           <CursorGlow />
 
