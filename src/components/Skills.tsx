@@ -39,6 +39,7 @@ const skillCategories: SkillCategory[] = [
     skills: [
       { name: 'Vue.js', weight: 'primary' },
       { name: 'React', weight: 'primary' },
+      { name: 'Next.js', weight: 'secondary' },
       { name: 'Inertia.js', weight: 'primary' },
       { name: 'Alpine.js', weight: 'secondary' },
     ],
