@@ -8,7 +8,7 @@ interface HeaderProps {
 }
 
 const ROLES = [
-  'Full-Stack Developer',
+  'Full Stack Developer',
   'DevOps Engineer',
   'Cloud Architect',
   'Laravel Specialist',
@@ -57,7 +57,7 @@ export default function Header({ onNavigate }: HeaderProps) {
   const stats = [
     { value: `${yearsExp}+`, label: t('header.yearsExp') },
     { value: '90+', label: t('header.projects') },
-    { value: 'Full-Stack', label: '& DevOps' },
+    { value: 'Full Stack', label: '& DevOps' },
     { value: t('header.remote'), label: 'Available' },
   ];
 

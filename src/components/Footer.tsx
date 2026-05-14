@@ -69,7 +69,7 @@ export default function Footer() {
             className="text-base max-w-md mx-auto mb-8"
             style={{ color: 'var(--color-text-muted)' }}
           >
-            Looking for a full-stack developer who delivers? I&apos;m open to
+            Looking for a full stack developer who delivers? I&apos;m open to
             new opportunities — let&apos;s build something great.
           </p>
           <a
