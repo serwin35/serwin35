@@ -149,7 +149,7 @@ export default function About() {
               className="text-sm leading-relaxed"
               style={{ color: 'var(--color-text-secondary)' }}
             >
-              <HighlightedBio text={t('about.bio')} />
+              <HighlightedBio text={t('about.bio', { yearsExp })} />
             </p>
           </div>
         </motion.div>
