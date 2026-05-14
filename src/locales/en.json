@@ -1,7 +1,7 @@
 {
   "header": {
     "title": "Mateusz Serwinowski",
-    "subtitle": "Full-Stack Developer & DevOps Engineer",
+    "subtitle": "Full Stack Developer & DevOps Engineer",
     "cityAndCountry": "Lodz, Poland",
     "firefighter": "Volunteer Firefighter · OSP Stara Lomnica",
     "yearsExp": "years of experience",
@@ -28,7 +28,7 @@
   "Age": "Age",
 
   "about": {
-    "bio": "Full-Stack Developer and DevOps Engineer with 17+ years of hands-on experience delivering production-grade web applications and scalable cloud infrastructure. I combine deep back-end expertise in Laravel and PHP with modern front-end skills in Vue.js and React to build end-to-end solutions — from database design through CI/CD pipelines to live monitoring on AWS. Over the course of my career I have shipped enterprise CRM/ERP platforms, high-traffic e-commerce stores and containerized microservices for companies ranging from startups to established brands. I am an active open-source contributor, maintaining public DevOps toolkits and reusable Docker environments used by the developer community. Outside of tech, I serve as a Volunteer Firefighter, which has instilled a strong sense of discipline, teamwork and crisis management.",
+    "bio": "Full Stack Developer and DevOps Engineer with {{yearsExp}}+ years of hands-on experience delivering production-grade web applications and scalable cloud infrastructure. I combine deep back-end expertise in Laravel and PHP with modern front-end skills in Vue.js and React to build end-to-end solutions — from database design through CI/CD pipelines to live monitoring on AWS. Over the course of my career I have shipped enterprise CRM/ERP platforms, high-traffic e-commerce stores and containerized microservices for companies ranging from startups to established brands. I am an active open-source contributor, maintaining public DevOps toolkits and reusable Docker environments used by the developer community. Outside of tech, I serve as a Volunteer Firefighter, which has instilled a strong sense of discipline, teamwork and crisis management.",
     "statYears": "years of experience",
     "statProjects": "projects delivered",
     "statCompanies": "companies",

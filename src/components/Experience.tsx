@@ -14,7 +14,7 @@ interface ExperienceItem {
 const experiences: ExperienceItem[] = [
   {
     periodKey: 'exp.period1',
-    title: 'Full-Stack Developer & DevOps Engineer',
+    title: 'Full Stack Developer & DevOps Engineer',
     company: 'Kuchnia Vikinga',
     descriptionKey: 'exp.desc1',
     tags: [
@@ -33,7 +33,7 @@ const experiences: ExperienceItem[] = [
   },
   {
     periodKey: 'exp.period2',
-    title: 'Full-Stack Developer & DevOps Engineer',
+    title: 'Full Stack Developer & DevOps Engineer',
     company: 'DMservice sp. z o.o.',
     descriptionKey: 'exp.desc2',
     tags: [
@@ -50,7 +50,7 @@ const experiences: ExperienceItem[] = [
   },
   {
     periodKey: 'exp.period3',
-    title: 'Full-Stack Developer',
+    title: 'Full Stack Developer',
     company: 'MyBit Poland sp. z o.o.',
     descriptionKey: 'exp.desc3',
     tags: [
@@ -65,7 +65,7 @@ const experiences: ExperienceItem[] = [
   },
   {
     periodKey: 'exp.period4',
-    title: 'Full-Stack Developer',
+    title: 'Full Stack Developer',
     company: 'Amsterdam Standard sp. z o.o. (d. HighSolutions)',
     descriptionKey: 'exp.desc4',
     tags: ['Laravel', 'Vue.js', 'React', 'Inertia.js', 'Bootstrap'],
@@ -73,7 +73,7 @@ const experiences: ExperienceItem[] = [
   },
   {
     periodKey: 'exp.period5',
-    title: 'Full-Stack Developer',
+    title: 'Full Stack Developer',
     company: 'HighSolutions sp. z o.o.',
     descriptionKey: 'exp.desc5',
     tags: ['Laravel', 'Vue.js', 'Livewire', 'Tailwind CSS'],
@@ -81,7 +81,7 @@ const experiences: ExperienceItem[] = [
   },
   {
     periodKey: 'exp.period6',
-    title: 'Full-Stack Developer & Founder',
+    title: 'Full Stack Developer & Founder',
     company: 'Blue-NET',
     descriptionKey: 'exp.desc6',
     tags: ['PrestaShop', 'WordPress', 'CodeIgniter', 'Yii', 'Laravel'],
