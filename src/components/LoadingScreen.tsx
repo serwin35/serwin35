@@ -92,7 +92,7 @@ export default function LoadingScreen() {
         className="text-sm mb-10"
         style={{ color: 'var(--color-text-muted)' }}
       >
-        Full-Stack Developer &amp; DevOps Engineer
+        Full Stack Developer &amp; DevOps Engineer
       </motion.p>
 
       {/* Terminal-style status lines */}
