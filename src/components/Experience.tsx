@@ -15,7 +15,7 @@ const experiences: ExperienceItem[] = [
   {
     periodKey: 'exp.period1',
     title: 'Full-Stack Developer & DevOps Engineer',
-    company: 'Kuchnia Vikinga sp. z o.o.',
+    company: 'Kuchnia Vikinga',
     descriptionKey: 'exp.desc1',
     tags: [
       'Laravel',
