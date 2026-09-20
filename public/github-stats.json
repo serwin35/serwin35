@@ -1,0 +1,49 @@
+{
+  "username": "serwin35",
+  "publicRepos": 22,
+  "followers": 1,
+  "totalStars": 14,
+  "totalForks": 4,
+  "commits": 1383,
+  "pullRequests": 63,
+  "contributionsLastYear": 9376,
+  "topLanguages": [
+    {
+      "name": "C#",
+      "color": "#7355dd",
+      "bytes": 2414351,
+      "percentage": 44.9
+    },
+    {
+      "name": "TypeScript",
+      "color": "#3178c6",
+      "bytes": 1584241,
+      "percentage": 29.5
+    },
+    {
+      "name": "JavaScript",
+      "color": "#f1e05a",
+      "bytes": 899687,
+      "percentage": 16.7
+    },
+    {
+      "name": "C++",
+      "color": "#f34b7d",
+      "bytes": 191154,
+      "percentage": 3.6
+    },
+    {
+      "name": "Shell",
+      "color": "#89e051",
+      "bytes": 168929,
+      "percentage": 3.1
+    },
+    {
+      "name": "Jinja",
+      "color": "#a52a22",
+      "bytes": 120154,
+      "percentage": 2.2
+    }
+  ],
+  "updatedAt": "2026-09-20T22:18:53.649Z"
+}

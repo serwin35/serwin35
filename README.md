@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- Dynamic Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B0000,50:FF4500,100:FF8C00&height=180&section=header&text=Mateusz%20Serwin%20Serwinowski&fontSize=36&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20Developer%20%7C%20DevOps%20Engineer%20%7C%20Firefighter%20%F0%9F%9A%92&descAlignY=52&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B0000,50:FF4500,100:FF8C00&height=180&section=header&text=Mateusz%20Serwinowski&fontSize=36&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20Developer%20%7C%20DevOps%20Engineer%20%7C%20Firefighter%20%F0%9F%9A%92&descAlignY=52&descSize=18" width="100%"/>
 
 <!-- Animated Typing -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=FF4500&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=100&lines=By+day+I+fight+fires+%F0%9F%94%A5+By+night+I+fight+bugs+%F0%9F%90%9B;17%2B+years+of+Full+Stack+%26+DevOps+experience+%F0%9F%9A%80;90%2B+projects+delivered+%E2%9A%A1;Building+%26+Deploying+with+Passion+%F0%9F%94%A5" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=FF4500&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=100&lines=By+day+I+fight+fires+%F0%9F%94%A5+By+night+I+fight+bugs+%F0%9F%90%9B;18%2B+years+of+Full+Stack+%26+DevOps+experience+%F0%9F%9A%80;90%2B+projects+delivered+%E2%9A%A1;Building+%26+Deploying+with+Passion+%F0%9F%94%A5" alt="Typing SVG" />
 
 <!-- Profile Views & Social Badges -->
 <p>
@@ -17,7 +17,7 @@
 
 <!-- Social Links -->
 <p>
-  <a href="https://serwin35.github.io" target="_blank">
+  <a href="https://serwin35.github.io/serwin35/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-FF4500?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
   </a>
   <a href="https://www.linkedin.com/in/mateusz-serwin-serwinowski/" target="_blank">
@@ -47,7 +47,7 @@
 class MateuszSerwinowski
 {
     public string $location = "Lodz, Poland 🇵🇱";
-    public int $yearsOfExperience = 17;
+    public int $yearsOfExperience = 18;
     public int $projectsDelivered = 90;
 
     public array $roles = [
@@ -74,7 +74,7 @@ class MateuszSerwinowski
 ### 🔥 Quick Facts
 
 - 👨‍🚒 **Volunteer Firefighter** at OSP Stara Lomnica
-- 🐘 **PHP** veteran — 17+ years (CodeIgniter → **Laravel**)
+- 🐘 **PHP** veteran — 18+ years (CodeIgniter → **Laravel**)
 - ⚡ **Vue.js** & **React** for modern front-ends
 - ☁️ **AWS** infrastructure (EC2, ECS, S3, RDS, CloudFront)
 - 🐳 **Docker**, **Proxmox VE** & CI/CD automation enthusiast
@@ -99,6 +99,8 @@ class MateuszSerwinowski
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Shell](https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
@@ -115,6 +117,7 @@ class MateuszSerwinowski
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EF4223?style=for-the-badge&logo=codeigniter&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET_8-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 
 ### 🛠️ DevOps & Infrastructure
 
@@ -158,6 +161,9 @@ class MateuszSerwinowski
 | **WF-Chart CRM/ERP**                                               | Enterprise sales management system                 | Laravel, Livewire, Flux UI |
 | [**Docker Laravel**](https://github.com/serwin35/docker-laravel)   | Production-ready Docker env for Laravel            | Docker, Nginx, PHP-FPM     |
 | [**DevOps Handbook**](https://github.com/serwin35/devops-handbook) | Public DevOps patterns & CI/CD configs             | TypeScript, Docker, CI/CD  |
+| [**Nexo Sfera API**](https://github.com/serwin35/nexo-sfera-api)   | REST API for InsERT Nexo/Sfera                     | .NET 8, C#, REST           |
+| [**Agents Office**](https://github.com/serwin35/agents-office)     | Multi-agent office dashboard and orchestration     | Node.js, AI agents         |
+| [**Usage Stick**](https://github.com/serwin35/usage-stick)         | ESP32 display for Claude and Codex usage           | C++, ESP32, Web UI         |
 
 </div>
 
@@ -166,16 +172,12 @@ class MateuszSerwinowski
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=serwin35&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=FF4500&icon_color=FF6B00&text_color=C9D1D9&ring_color=DC2626"/>
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=serwin35&layout=compact&langs_count=10&exclude_repo=&hide=jupyter%20notebook,vim%20script,cmake,makefile,batchfile,emacs%20lisp,css,html&hide_border=true&bg_color=0D1117&title_color=FF4500&text_color=C9D1D9"/>
+  <img height="195" src="https://raw.githubusercontent.com/serwin35/serwin35/main/public/github-stats.svg" alt="GitHub statistics"/>
+  <img height="195" src="https://raw.githubusercontent.com/serwin35/serwin35/main/public/github-languages.svg" alt="Most used languages"/>
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.vercel.app?user=serwin35&hide_border=true&background=0D1117&stroke=FF4500&ring=DC2626&fire=FF6B00&currStreakLabel=FF4500&sideLabels=FF4500&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=C9D1D9" alt="GitHub Streak" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=serwin35&bg_color=0D1117&color=FF4500&line=FF6B00&point=FFFFFF&area=true&hide_border=true&area_color=DC2626" width="95%"/>
+  <img src="https://raw.githubusercontent.com/serwin35/serwin35/main/public/github-contributions.svg" width="95%" alt="GitHub contributions"/>
 </div>
 
 ---
@@ -193,7 +195,7 @@ class MateuszSerwinowski
 <div align="center">
   <p><i>Whether it's putting out fires or debugging code — I'm always ready for a challenge!</i> 🚒💻</p>
 
-  <a href="https://serwin35.github.io">
+  <a href="https://serwin35.github.io/serwin35/">
     <img src="https://img.shields.io/badge/Check_My_Portfolio-FF4500?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
   </a>
   <a href="https://www.linkedin.com/in/mateusz-serwin-serwinowski/">

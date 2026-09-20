@@ -10,6 +10,8 @@
     "preview": "vite preview",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
+    "profile:update": "node scripts/update-readme.mjs",
+    "stats:update": "node scripts/update-github-stats.mjs",
     "prepare": "husky"
   },
   "dependencies": {

@@ -35,7 +35,8 @@
     "yearsOld": "lat",
     "ghRepos": "Repozytoria",
     "ghCommits": "Commity",
-    "ghPRs": "Pull Requesty"
+    "ghPRs": "Pull Requesty",
+    "ghStars": "Gwiazdki"
   },
 
   "Experience": "Doświadczenie",
@@ -88,6 +89,9 @@
     "desc4": "Baza wiedzy DevOps open-source zawierająca sprawdzone w boju wzorce, skrypty automatyzacji i konfiguracje pipeline'ów CI/CD. Zaprojektowana, aby pomóc zespołom szybko wdrażać najlepsze praktyki infrastructure-as-code.",
     "desc5": "Gotowe do produkcji środowisko Docker dla projektów Laravel, wstępnie skonfigurowane z Nginx, PHP-FPM i MySQL. Pozwala deweloperom uruchomić spójne środowiska lokalne i stagingowe w kilka minut.",
     "desc6": "Lekka aplikacja do zarządzania kartami czasu pracy i urlopami, dostosowana do potrzeb małych firm. Upraszcza rejestrowanie godzin, wnioski urlopowe i śledzenie dostępności zespołu dzięki intuicyjnemu, mobilnemu interfejsowi.",
+    "desc7": "Produkcyjne REST API dla produktów InsERT Nexo/Sfera, udostępniające faktury, dokumenty magazynowe, kontrahentów i płatności przez przejrzysty interfejs .NET 8.",
+    "desc8": "Panel i zestaw narzędzi do orkiestracji zespołów agentów AI: tablice zadań, akceptacje, routing modeli i lokalna baza wiedzy. Opublikowany jako zmodyfikowana kopia do użytku niekomercyjnego.",
+    "desc9": "Biurkowy wyświetlacz ESP32 monitorujący limity Claude i Codex, przechowujący tokeny zaszyfrowane na urządzeniu i udostępniający własny panel sterowania.",
     "status": {
       "live": "Live",
       "private": "Prywatny",

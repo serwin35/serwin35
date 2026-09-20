@@ -35,7 +35,8 @@
     "yearsOld": "years old",
     "ghRepos": "Repositories",
     "ghCommits": "Commits",
-    "ghPRs": "Pull Requests"
+    "ghPRs": "Pull Requests",
+    "ghStars": "Stars"
   },
 
   "Experience": "Experience",
@@ -88,6 +89,9 @@
     "desc4": "Open-source DevOps knowledge base featuring battle-tested patterns, automation scripts and CI/CD pipeline configurations. Designed to help teams adopt infrastructure-as-code best practices quickly.",
     "desc5": "Production-ready Docker environment for Laravel projects, pre-configured with Nginx, PHP-FPM and MySQL. Enables developers to spin up consistent local and staging environments in minutes.",
     "desc6": "Lightweight timesheet and vacation management application tailored for small businesses. Simplifies hour logging, leave requests and team availability tracking with an intuitive, mobile-friendly interface.",
+    "desc7": "A production-oriented REST API for InsERT Nexo/Sfera products, exposing invoices, warehouse documents, contractors and payments through a clean .NET 8 interface.",
+    "desc8": "A multi-agent office dashboard and orchestration toolkit with teams, task boards, approvals, model routing and a local knowledge brain. Published as a modified noncommercial copy.",
+    "desc9": "An ESP32 desk display that tracks Claude and Codex rate-limit windows, stores encrypted tokens on-device and serves its own control panel.",
     "status": {
       "live": "Live",
       "private": "Private",

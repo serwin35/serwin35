@@ -18,6 +18,8 @@ const skillCategories: SkillCategory[] = [
       { name: 'JavaScript', weight: 'primary' },
       { name: 'TypeScript', weight: 'secondary' },
       { name: 'Python', weight: 'tertiary' },
+      { name: 'C#', weight: 'tertiary' },
+      { name: 'C++', weight: 'tertiary' },
       { name: 'HTML / CSS', weight: 'primary' },
     ],
   },
@@ -106,6 +108,8 @@ const skillCategories: SkillCategory[] = [
       { name: 'ClickUp', weight: 'secondary' },
       { name: 'Figma', weight: 'tertiary' },
       { name: 'Postman', weight: 'secondary' },
+      { name: '.NET 8', weight: 'tertiary' },
+      { name: 'PlatformIO / ESP32', weight: 'tertiary' },
     ],
   },
   {

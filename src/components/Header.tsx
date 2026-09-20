@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import avatarImg from '../assets/images/avatar.jpg';
+import { profile, yearsOfExperience } from '../data/profile';
 
 interface HeaderProps {
   onNavigate: (id: string) => void;
@@ -45,18 +46,14 @@ function useTypingEffect(words: readonly string[], speed = 80, pause = 1800) {
   return displayed;
 }
 
-function calcYearsOfExp(): number {
-  return new Date().getFullYear() - 2008;
-}
-
 export default function Header({ onNavigate }: HeaderProps) {
   const { t, i18n } = useTranslation();
-  const yearsExp = calcYearsOfExp();
+  const yearsExp = yearsOfExperience();
   const typedRole = useTypingEffect(ROLES);
 
   const stats = [
     { value: `${yearsExp}+`, label: t('header.yearsExp') },
-    { value: '90+', label: t('header.projects') },
+    { value: `${profile.projectsDelivered}+`, label: t('header.projects') },
     { value: 'Full Stack', label: '& DevOps' },
     { value: t('header.remote'), label: 'Available' },
   ];
@@ -247,7 +244,7 @@ export default function Header({ onNavigate }: HeaderProps) {
           className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-12 md:mb-16"
         >
           <a
-            href="mailto:mateusz.serwinowski@gmail.com"
+            href={`mailto:${profile.email}`}
             className="inline-flex items-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 rounded-xl font-semibold text-sm text-white transition-all duration-200 hover:scale-105 hover-glow"
             style={{
               background: 'linear-gradient(135deg, #3b82f6, #6d28d9)',
@@ -270,7 +267,7 @@ export default function Header({ onNavigate }: HeaderProps) {
             {t('header.contact')}
           </a>
           <a
-            href="https://github.com/serwin35"
+            href={profile.githubUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 rounded-xl font-semibold text-sm transition-all duration-200 hover:scale-105"
@@ -286,7 +283,7 @@ export default function Header({ onNavigate }: HeaderProps) {
             GitHub
           </a>
           <a
-            href="https://www.linkedin.com/in/mateusz-serwin-serwinowski/"
+            href={profile.linkedinUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 rounded-xl font-semibold text-sm transition-all duration-200 hover:scale-105"

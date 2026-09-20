@@ -1,29 +1,26 @@
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import useSWR from 'swr';
+import { age, profile, yearsOfExperience } from '../data/profile';
 
-interface GitHubUser {
-  public_repos: number;
+interface GitHubStats {
+  publicRepos: number;
+  totalStars: number;
+  commits: number;
+  pullRequests: number;
+  updatedAt: string;
+  topLanguages: Array<{
+    name: string;
+    color: string;
+    percentage: number;
+  }>;
 }
 
-interface GitHubSearchResult {
-  total_count: number;
-}
-
-function calcAge(): number {
-  const birth = new Date(1991, 9, 18);
-  const today = new Date();
-  let age = today.getFullYear() - birth.getFullYear();
-  const m = today.getMonth() - birth.getMonth();
-  if (m < 0 || (m === 0 && today.getDate() < birth.getDate())) age--;
-  return age;
-}
-
-function calcYearsOfExp(): number {
-  return new Date().getFullYear() - 2008;
-}
-
-const fetcher = (url: string) => fetch(url).then((r) => r.json());
+const fetcher = async (url: string): Promise<GitHubStats> => {
+  const response = await fetch(url);
+  if (!response.ok) throw new Error(`GitHub stats: ${response.status}`);
+  return response.json() as Promise<GitHubStats>;
+};
 
 const HIGHLIGHT_TERMS = [
   'Laravel',
@@ -75,47 +72,46 @@ const fadeUp = {
 
 export default function About() {
   const { t } = useTranslation();
-  const age = calcAge();
-  const yearsExp = calcYearsOfExp();
+  const currentAge = age();
+  const yearsExp = yearsOfExperience();
 
-  const { data: ghUser } = useSWR<GitHubUser>(
-    'https://api.github.com/users/serwin35',
+  const { data: github } = useSWR<GitHubStats>(
+    `${import.meta.env.BASE_URL}github-stats.json`,
     fetcher,
-    { revalidateOnFocus: false },
-  );
-  const { data: ghCommits } = useSWR<GitHubSearchResult>(
-    'https://api.github.com/search/commits?q=author:serwin35&per_page=1',
-    fetcher,
-    { revalidateOnFocus: false },
-  );
-  const { data: ghPRs } = useSWR<GitHubSearchResult>(
-    'https://api.github.com/search/issues?q=author:serwin35+type:pr&per_page=1',
-    fetcher,
-    { revalidateOnFocus: false },
+    { revalidateOnFocus: false, revalidateOnReconnect: false },
   );
 
   const stats = [
     { value: `${yearsExp}+`, label: t('about.statYears'), accent: '#3b82f6' },
-    { value: '90+', label: t('about.statProjects'), accent: '#8b5cf6' },
-    { value: '5', label: t('about.statCompanies'), accent: '#10b981' },
-    { value: `${age}`, label: t('about.yearsOld'), accent: '#f59e0b' },
+    {
+      value: `${profile.projectsDelivered}+`,
+      label: t('about.statProjects'),
+      accent: '#8b5cf6',
+    },
+    {
+      value: `${profile.companies}`,
+      label: t('about.statCompanies'),
+      accent: '#10b981',
+    },
+    { value: `${currentAge}`, label: t('about.yearsOld'), accent: '#f59e0b' },
   ];
 
   const ghStats = [
-    { value: ghUser?.public_repos ?? '—', label: t('about.ghRepos') },
     {
-      value:
-        ghCommits?.total_count != null
-          ? `${ghCommits.total_count.toLocaleString()}+`
-          : '—',
+      value: github?.publicRepos.toLocaleString() ?? '—',
+      label: t('about.ghRepos'),
+    },
+    {
+      value: github?.commits.toLocaleString() ?? '—',
       label: t('about.ghCommits'),
     },
     {
-      value:
-        ghPRs?.total_count != null
-          ? `${ghPRs.total_count.toLocaleString()}+`
-          : '—',
+      value: github?.pullRequests.toLocaleString() ?? '—',
       label: t('about.ghPRs'),
+    },
+    {
+      value: github?.totalStars.toLocaleString() ?? '—',
+      label: t('about.ghStars'),
     },
   ];
 
@@ -200,7 +196,7 @@ export default function About() {
               GitHub — serwin35
             </span>
             <a
-              href="https://github.com/serwin35"
+              href={profile.githubUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="ml-auto text-xs px-3 py-1 rounded-lg transition-colors hover:bg-[var(--color-accent-muted)]"
@@ -213,7 +209,7 @@ export default function About() {
             </a>
           </div>
 
-          <div className="grid grid-cols-3 gap-2 sm:gap-3 mb-5">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3 mb-5">
             {ghStats.map((item, i) => (
               <div
                 key={i}
@@ -239,12 +235,43 @@ export default function About() {
             ))}
           </div>
 
+          {github?.topLanguages && github.topLanguages.length > 0 && (
+            <div className="mb-5">
+              <div className="flex h-2 overflow-hidden rounded-full mb-3">
+                {github.topLanguages.map((language) => (
+                  <span
+                    key={language.name}
+                    style={{
+                      width: `${language.percentage}%`,
+                      background: language.color,
+                    }}
+                  />
+                ))}
+              </div>
+              <div className="flex flex-wrap gap-x-4 gap-y-2">
+                {github.topLanguages.map((language) => (
+                  <span
+                    key={language.name}
+                    className="flex items-center gap-1.5 text-xs"
+                    style={{ color: 'var(--color-text-muted)' }}
+                  >
+                    <span
+                      className="w-2 h-2 rounded-full"
+                      style={{ background: language.color }}
+                    />
+                    {language.name} {language.percentage.toFixed(1)}%
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+
           <div
             className="rounded-xl overflow-hidden"
             style={{ border: '1px solid rgba(255,255,255,0.05)' }}
           >
             <img
-              src="https://ghchart.rshah.org/3b82f6/serwin35"
+              src={`${import.meta.env.BASE_URL}github-contributions.svg`}
               alt="GitHub contribution chart"
               className="w-full h-auto block"
               style={{ opacity: 0.85 }}
@@ -268,8 +295,8 @@ export default function About() {
             {[
               {
                 label: 'E-mail',
-                value: 'mateusz.serwinowski@gmail.com',
-                href: 'mailto:mateusz.serwinowski@gmail.com',
+                value: profile.email,
+                href: `mailto:${profile.email}`,
               },
               {
                 label: t('Phone'),
@@ -337,7 +364,7 @@ export default function About() {
                 className="text-sm"
                 style={{ color: 'var(--color-text-secondary)' }}
               >
-                Lodz, Poland
+                {profile.location}
               </span>
             </div>
             <div className="flex items-center gap-2">
