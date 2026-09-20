@@ -38,7 +38,7 @@ const projects: Project[] = [
   {
     title: 'Agents Office',
     descriptionKey: 'portfolio.desc8',
-    projectUrl: 'https://github.com/serwin35/agents-office',
+    projectUrl: 'https://github.com/serwin35/agents-offices',
     tags: ['AI Agents', 'Node.js', 'Orchestration', 'Dashboard'],
     status: 'live',
     gradient: 'from-orange-500/10 to-red-500/5',

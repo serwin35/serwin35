@@ -162,7 +162,7 @@ class MateuszSerwinowski
 | [**Docker Laravel**](https://github.com/serwin35/docker-laravel)   | Production-ready Docker env for Laravel            | Docker, Nginx, PHP-FPM     |
 | [**DevOps Handbook**](https://github.com/serwin35/devops-handbook) | Public DevOps patterns & CI/CD configs             | TypeScript, Docker, CI/CD  |
 | [**Nexo Sfera API**](https://github.com/serwin35/nexo-sfera-api)   | REST API for InsERT Nexo/Sfera                     | .NET 8, C#, REST           |
-| [**Agents Office**](https://github.com/serwin35/agents-office)     | Multi-agent office dashboard and orchestration     | Node.js, AI agents         |
+| [**Agents Office**](https://github.com/serwin35/agents-offices)    | Multi-agent office dashboard and orchestration     | Node.js, AI agents         |
 | [**Usage Stick**](https://github.com/serwin35/usage-stick)         | ESP32 display for Claude and Codex usage           | C++, ESP32, Web UI         |
 
 </div>
