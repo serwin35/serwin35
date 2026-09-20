@@ -55,7 +55,7 @@ export default function Header({ onNavigate }: HeaderProps) {
     { value: `${yearsExp}+`, label: t('header.yearsExp') },
     { value: `${profile.projectsDelivered}+`, label: t('header.projects') },
     { value: 'Full Stack', label: '& DevOps' },
-    { value: t('header.remote'), label: 'Available' },
+    { value: t('header.remote'), label: t('header.available') },
   ];
 
   return (
@@ -142,7 +142,7 @@ export default function Header({ onNavigate }: HeaderProps) {
             className="text-xl md:text-2xl font-semibold"
             style={{ color: 'var(--color-text-secondary)' }}
           >
-            I&apos;m a{' '}
+            {t('header.intro')}{' '}
           </span>
           <span
             className="text-xl md:text-2xl font-bold"

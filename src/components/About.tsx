@@ -139,7 +139,7 @@ export default function About() {
               className="text-xs font-semibold uppercase tracking-widest mb-3"
               style={{ color: 'var(--color-accent)' }}
             >
-              About Me
+              {t('about.eyebrow')}
             </p>
             <p
               className="text-sm leading-relaxed"
@@ -205,7 +205,7 @@ export default function About() {
                 border: '1px solid var(--color-accent-border)',
               }}
             >
-              View Profile
+              {t('about.viewProfile')}
             </a>
           </div>
 
@@ -337,7 +337,7 @@ export default function About() {
             className="text-xs font-semibold uppercase tracking-widest mb-3"
             style={{ color: 'var(--color-accent)' }}
           >
-            Location &amp; Status
+            {t('about.locationStatus')}
           </p>
           <div className="space-y-3">
             <div className="flex items-center gap-2">
@@ -394,7 +394,7 @@ export default function About() {
                 className="text-sm"
                 style={{ color: 'var(--color-text-muted)' }}
               >
-                Volunteer Firefighter
+                {t('about.firefighter')}
               </span>
             </div>
           </div>

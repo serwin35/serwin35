@@ -7,6 +7,8 @@
     "yearsExp": "lat doświadczenia",
     "projects": "projektów",
     "remote": "Praca zdalna",
+    "available": "Dostępny",
+    "intro": "Jestem",
     "contact": "Napisz do mnie"
   },
   "nav": {
@@ -29,6 +31,10 @@
 
   "about": {
     "bio": "Full Stack Developer i DevOps Engineer z ponad {{yearsExp}}-letnim doświadczeniem w dostarczaniu produkcyjnych aplikacji webowych i skalowalnej infrastruktury chmurowej. Łączę głęboką wiedzę back-endową w Laravel i PHP z nowoczesnymi kompetencjami front-endowymi w Vue.js i React, tworząc rozwiązania end-to-end — od projektowania baz danych, przez pipeline'y CI/CD, po monitoring na AWS. W toku kariery dostarczyłem platformy CRM/ERP klasy enterprise, wysokoobciążeniowe sklepy e-commerce oraz skonteneryzowane mikroserwisy dla firm od startupów po uznane marki. Aktywnie kontrybuuję do open-source, utrzymując publiczne toolkity DevOps i środowiska Docker wykorzystywane przez społeczność deweloperów. Poza technologią pełnię służbę jako Strażak-Ratownik OSP, co ukształtowało we mnie dyscyplinę, umiejętność pracy zespołowej i zarządzania sytuacjami kryzysowymi.",
+    "eyebrow": "O mnie",
+    "viewProfile": "Zobacz profil",
+    "locationStatus": "Lokalizacja i status",
+    "firefighter": "Strażak-Ratownik OSP",
     "statYears": "lat doświadczenia",
     "statProjects": "projektów",
     "statCompanies": "firm",
