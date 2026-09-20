@@ -14,20 +14,20 @@
     .meta { fill: #6e7681; font: 400 10px system-ui, sans-serif; }
   </style>
   <text x="24" y="32" class="title">Most used languages</text>
-<clipPath id="bar"><rect x="24" y="50" width="447" height="10" rx="5"/></clipPath><g clip-path="url(#bar)"><rect x="24.0" y="50" width="200.7" height="10" fill="#7355dd"/>
-<rect x="224.7" y="50" width="131.9" height="10" fill="#3178c6"/>
-<rect x="356.6" y="50" width="74.6" height="10" fill="#f1e05a"/>
-<rect x="431.2" y="50" width="16.1" height="10" fill="#f34b7d"/>
-<rect x="447.3" y="50" width="13.9" height="10" fill="#89e051"/>
-<rect x="461.2" y="50" width="9.8" height="10" fill="#a52a22"/></g>
+<clipPath id="bar"><rect x="24" y="50" width="447" height="10" rx="5"/></clipPath><g clip-path="url(#bar)"><rect x="24.0" y="50" width="200.3" height="10" fill="#7355dd"/>
+<rect x="224.3" y="50" width="131.4" height="10" fill="#3178c6"/>
+<rect x="355.7" y="50" width="75.5" height="10" fill="#f1e05a"/>
+<rect x="431.2" y="50" width="15.6" height="10" fill="#f34b7d"/>
+<rect x="446.9" y="50" width="13.9" height="10" fill="#89e051"/>
+<rect x="460.7" y="50" width="9.8" height="10" fill="#a52a22"/></g>
 <circle cx="29" cy="84" r="5" fill="#7355dd"/>
-      <text x="41" y="88" class="label">C# · 44.9%</text>
+      <text x="41" y="88" class="label">C# · 44.8%</text>
 <circle cx="254" cy="84" r="5" fill="#3178c6"/>
-      <text x="266" y="88" class="label">TypeScript · 29.5%</text>
+      <text x="266" y="88" class="label">TypeScript · 29.4%</text>
 <circle cx="29" cy="114" r="5" fill="#f1e05a"/>
-      <text x="41" y="118" class="label">JavaScript · 16.7%</text>
+      <text x="41" y="118" class="label">JavaScript · 16.9%</text>
 <circle cx="254" cy="114" r="5" fill="#f34b7d"/>
-      <text x="266" y="118" class="label">C++ · 3.6%</text>
+      <text x="266" y="118" class="label">C++ · 3.5%</text>
 <circle cx="29" cy="144" r="5" fill="#89e051"/>
       <text x="41" y="148" class="label">Shell · 3.1%</text>
 <circle cx="254" cy="144" r="5" fill="#a52a22"/>
